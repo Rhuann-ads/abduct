@@ -7,7 +7,6 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		
 		double opcao1 = 59.90;
 		double opcao2 = 350.00;
 		double opcao3 = 250.00;
