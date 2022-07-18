@@ -15,6 +15,15 @@ public class Main {
 		int codigo;
 
 		
+		menu(sc, opcao1, opcao2, opcao3);
+		
+		sc.close();
+	}
+
+	private static void menu(Scanner sc, double opcao1, double opcao2, double opcao3) {
+		int quantidade;
+		double total;
+		int codigo;
 		System.out.println("-------MENU--------");
 		System.out.println("1- Oculos esporte");
 		System.out.println("2- Oculos de grau");
@@ -42,9 +51,8 @@ public class Main {
 					" oculos infantil no valor de: R$" + total + " reais");
 		}else {
 			System.out.println("Opção invalida!");
+			menu(sc, opcao1, opcao2, opcao3);
 		}
-		
-		sc.close();
 	}
 
 }
